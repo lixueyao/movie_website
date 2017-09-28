@@ -29,6 +29,9 @@ movies_info = [["神偷奶爸3 Despicable Me 3",
                 "https://www.youtube.com/watch?v=hYGQE5AZ4dE"]
               ]
 
+print media.Movies.__init__.__doc__
+print media.Movies.show_trailer.__doc__
+
 for movie in movies_info:
     movie_info = media.Movies(movie[0], movie[1], movie[2], movie[3])
     my_movies.append(movie_info)
